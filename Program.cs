@@ -1,4 +1,4 @@
-﻿namespace topic_5_part_1
+﻿namespace topic_5_part_1tutorial 
 {
     internal class Program
     {
