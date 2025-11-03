@@ -31,7 +31,34 @@
             Console.WriteLine("4 Saturn 5. Uranus 6. Neptune");
             Console.WriteLine("Which planet are you visiting?");
             double planet = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Your weight would be + (earthweight * planet");
+
+            if (planet == 1)
+            {
+                planet = venus;
+            }
+            else if (planet == 2)
+            {
+                planet = mars;
+            }
+            else if (planet == 3)
+            {
+                planet = jupiter;
+            }
+            else if (planet == 4)
+            {
+                planet = saturn;
+            }
+            else if (planet == 5)
+            {
+                planet = uranus;
+            }
+            else if (planet == 6)
+            {
+                planet = neptune;
+            }
+
+
+            Console.WriteLine("Your weight would be " + earthweight * planet);
 
             
 
